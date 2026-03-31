@@ -1,0 +1,139 @@
+/* AgriSmart Custom Styles */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+}
+
+.skin-green .main-header .logo {
+  background-color: #1a7a3e !important;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.skin-green .main-header .navbar {
+  background-color: #27ae60 !important;
+}
+
+.skin-green .main-sidebar {
+  background-color: #1e3a2f !important;
+}
+
+.skin-green .sidebar-menu > li > a {
+  color: #c8e6c9 !important;
+  font-size: 14px;
+  padding: 12px 15px;
+  border-bottom: 1px solid #2d5a40;
+}
+
+.skin-green .sidebar-menu > li:hover > a,
+.skin-green .sidebar-menu > li.active > a {
+  background-color: #27ae60 !important;
+  color: #fff !important;
+}
+
+/* Value Boxes */
+.small-box {
+  border-radius: 10px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+}
+
+.small-box h3 {
+  font-size: 2em !important;
+  font-weight: 700;
+}
+
+/* Boxes */
+.box {
+  border-radius: 10px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
+}
+
+.box-header {
+  border-radius: 10px 10px 0 0 !important;
+}
+
+/* Prediction result box */
+.prediction-box {
+  background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+  border: 2px solid #27ae60;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+/* Stat boxes */
+.stat-box {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  border-left: 4px solid #27ae60;
+  margin: 4px;
+}
+
+/* Alert styles */
+.alert-success {
+  background-color: #d4edda;
+  border-color: #27ae60;
+  color: #155724;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffc107;
+  color: #856404;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* Buttons */
+.btn-success-fill {
+  background-color: #27ae60 !important;
+  border-color: #219a52 !important;
+  font-weight: 600;
+  border-radius: 8px !important;
+  transition: all 0.2s;
+}
+
+.btn-success-fill:hover {
+  background-color: #219a52 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(39,174,96,0.35);
+}
+
+/* Sliders */
+.irs-bar, .irs-bar-edge {
+  background: #27ae60 !important;
+  border-top-color: #27ae60 !important;
+  border-bottom-color: #27ae60 !important;
+}
+
+.irs-handle {
+  border-color: #27ae60 !important;
+}
+
+/* Select inputs */
+.selectize-control.single .selectize-input {
+  border-radius: 6px;
+  border-color: #ced4da;
+}
+
+/* DataTable */
+.dataTable thead th {
+  background-color: #27ae60 !important;
+  color: white !important;
+}
+
+/* Content wrapper */
+.content-wrapper {
+  background-color: #f4f6f9 !important;
+}
+
+/* Leaflet map */
+.leaflet-container {
+  border-radius: 8px;
+}
